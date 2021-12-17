@@ -1,0 +1,64 @@
+.barOnTop {
+  min-width: 300px;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 10000;
+}
+
+.barOnTheMove {
+  min-width: 300px;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 1px 10px 5px rgb(100,100,100,0.5);
+}
+
+.itemContainer {
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 5px 0;
+}
+
+.label {
+  margin: 0 0 0 20px;
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color .5s;
+}
+
+.label:hover {
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+.logo {
+  margin: 0 0 0 10px;
+  object-fit: contain;
+  height: 100%;
+}
+
+.note {
+  margin:0 0 0 20px;
+  font-size: 12px;
+  color: white;
+}
+
+.noteOnTheMove {
+  margin: 0 0 0 20px;
+  font-size: 12px;
+  color: black;
+}
