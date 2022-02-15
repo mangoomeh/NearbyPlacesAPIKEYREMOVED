@@ -4,6 +4,7 @@ Nearby Places is a web app that allows a user to find nearby places based on his
 ## Stack
 1. JavaScript
 2. React.js
+3. JSX
 
 ## Additional React.js packages
 1. react-loader-spinner
