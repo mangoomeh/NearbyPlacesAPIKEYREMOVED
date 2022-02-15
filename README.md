@@ -1,5 +1,6 @@
 # Nearby Places
 Nearby Places is a web app that allows a user to find nearby places based on his/her location. Created as one of the projects for SEI-33, GA. This is an attempt at using the JavaScript Library, React.js to implement a web application. <br />
+
 ![Snippet](./snippet.png)
 
 ## Stack
